@@ -19,14 +19,18 @@ For each one create a variable at the top of the code.
 let slider; --- (top)
 
 --(in set up)--
+
 slider = createSlider (min, max);
+
 slider.position (xPos, yPos);
+
 slider.size ();
 
  -- (in draw)--
+ 
  let val = slider.value;
 
-
+----------------------------------
 createCanvas ( windowWidth , windowHeight );
 
 function windowResized(){
